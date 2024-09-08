@@ -1,0 +1,9 @@
+# ninja log v5
+6	554	7471505048753747	QPlayerWithOpenCV_autogen/timestamp	a0930bf87b214769
+6	554	7471505048753747	QPlayerWithOpenCV_autogen/mocs_compilation_Debug.cpp	a0930bf87b214769
+6	554	7471505048753747	D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/timestamp	a0930bf87b214769
+6	554	7471505048753747	D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/mocs_compilation_Debug.cpp	a0930bf87b214769
+565	3267	7471505076865903	CMakeFiles/QPlayerWithOpenCV.dir/Debug/player.cpp.obj	cd7ac8f769d49f58
+555	3280	7471505077027918	CMakeFiles/QPlayerWithOpenCV.dir/Debug/QPlayerWithOpenCV_autogen/mocs_compilation_Debug.cpp.obj	cbdb60ca5f5d65d9
+576	3220	7471505076420249	CMakeFiles/QPlayerWithOpenCV.dir/Debug/main.cpp.obj	6d065826e9f1f7b0
+3280	3527	7471505079471086	Debug/QPlayerWithOpenCV.exe	163633261ee027d

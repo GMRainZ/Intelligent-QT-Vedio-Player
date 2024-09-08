@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dlib_build",
+		"source" : "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib"
+	}
+}

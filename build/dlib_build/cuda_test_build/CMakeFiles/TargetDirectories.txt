@@ -1,0 +1,3 @@
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/edit_cache.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/rebuild_cache.dir

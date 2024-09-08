@@ -1,0 +1,21 @@
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.obj: \
+ D:\rain_programing\OpenSourceProject\dlib-19.24.3\dlib\external\zlib\compress.c \
+ D:\rain_programing\OpenSourceProject\dlib-19.24.3\dlib\external\zlib\zlib.h \
+ D:\rain_programing\OpenSourceProject\dlib-19.24.3\dlib\external\zlib\zconf.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stddef.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/limits.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdarg.h \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_stdarg.h

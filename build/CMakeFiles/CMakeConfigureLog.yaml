@@ -1,0 +1,1601 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Qt/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/3.27.7/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_212bc/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_212bc.dir\\build.make CMakeFiles/cmTC_212bc.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1'
+        Building CXX object CMakeFiles/cmTC_212bc.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_212bc.dir\\'
+         D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_212bc.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\17934\\AppData\\Local\\Temp\\ccoyM0xg.s
+        GNU C++17 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: b3d236387f35294e2a73c51628039e05
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_212bc.dir\\'
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\17934\\AppData\\Local\\Temp\\ccoyM0xg.s
+        GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_212bc.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_212bc.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_212bc.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_212bc.dir/objects.a @CMakeFiles\\cmTC_212bc.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_212bc.dir/objects.a -Wl,--no-whole-archive -o cmTC_212bc.exe -Wl,--out-implib,libcmTC_212bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_212bc.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_212bc.'
+         D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17934\\AppData\\Local\\Temp\\cc7Ojfuo.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_212bc.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_212bc.dir/objects.a --no-whole-archive --out-implib libcmTC_212bc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_212bc.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_212bc.'
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_212bc/fast]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_212bc.dir\\build.make CMakeFiles/cmTC_212bc.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-zd0yv1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_212bc.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_212bc.dir\\']
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_212bc.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\17934\\AppData\\Local\\Temp\\ccoyM0xg.s]
+        ignore line: [GNU C++17 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b3d236387f35294e2a73c51628039e05]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_212bc.dir\\']
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\17934\\AppData\\Local\\Temp\\ccoyM0xg.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_212bc.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_212bc.exe]
+        ignore line: [D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_212bc.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_212bc.dir/objects.a]
+        ignore line: [D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_212bc.dir/objects.a @CMakeFiles\\cmTC_212bc.dir\\objects1.rsp]
+        ignore line: [D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_212bc.dir/objects.a -Wl --no-whole-archive -o cmTC_212bc.exe -Wl --out-implib libcmTC_212bc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_212bc.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_212bc.']
+        link line: [ D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17934\\AppData\\Local\\Temp\\cc7Ojfuo.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_212bc.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_212bc.dir/objects.a --no-whole-archive --out-implib libcmTC_212bc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\17934\\AppData\\Local\\Temp\\cc7Ojfuo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_212bc.exe] ==> ignore
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_212bc.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_212bc.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [D:/Qt/Tools/mingw1310_64/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [D:/Qt/Tools/mingw1310_64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib/crt2.o;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0;D:/Qt/Tools/mingw1310_64/lib/gcc;D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib;D:/Qt/Tools/mingw1310_64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
+      - "CMakeLists.txt:33 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-hsi1jr"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-hsi1jr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-hsi1jr'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_3c006/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3c006.dir\\build.make CMakeFiles/cmTC_3c006.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-hsi1jr'
+        Building CXX object CMakeFiles/cmTC_3c006.dir/src.cxx.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles\\cmTC_3c006.dir\\src.cxx.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hsi1jr\\src.cxx
+        Linking CXX executable cmTC_3c006.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3c006.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3c006.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_3c006.dir/objects.a @CMakeFiles\\cmTC_3c006.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_3c006.dir/objects.a -Wl,--no-whole-archive -o cmTC_3c006.exe -Wl,--out-implib,libcmTC_3c006.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3c006.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-hsi1jr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-3i9nl4"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-3i9nl4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/3rdparty/kwin;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-3i9nl4'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_cda97/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cda97.dir\\build.make CMakeFiles/cmTC_cda97.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-3i9nl4'
+        Building CXX object CMakeFiles/cmTC_cda97.dir/src.cxx.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\\cmTC_cda97.dir\\src.cxx.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3i9nl4\\src.cxx
+        Linking CXX executable cmTC_cda97.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_cda97.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_cda97.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_cda97.dir/objects.a @CMakeFiles\\cmTC_cda97.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_cda97.dir/objects.a -Wl,--no-whole-archive -o cmTC_cda97.exe -Wl,--out-implib,libcmTC_cda97.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_cda97.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-3i9nl4'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Qt/Tools/mingw1310_64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/3.27.7/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_f6e52/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f6e52.dir\\build.make CMakeFiles/cmTC_f6e52.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9'
+        Building C object CMakeFiles/cmTC_f6e52.dir/CMakeCCompilerABI.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj -c D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f6e52.dir\\'
+         D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_f6e52.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\17934\\AppData\\Local\\Temp\\ccNGBhTb.s
+        GNU C17 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: d7c375444084b5dd0a875da0e5c67862
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f6e52.dir\\'
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj C:\\Users\\17934\\AppData\\Local\\Temp\\ccNGBhTb.s
+        GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f6e52.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f6e52.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f6e52.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_f6e52.dir/objects.a @CMakeFiles\\cmTC_f6e52.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_f6e52.dir/objects.a -Wl,--no-whole-archive -o cmTC_f6e52.exe -Wl,--out-implib,libcmTC_f6e52.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6e52.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_f6e52.'
+         D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17934\\AppData\\Local\\Temp\\cce8RU2l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_f6e52.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_f6e52.dir/objects.a --no-whole-archive --out-implib libcmTC_f6e52.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6e52.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_f6e52.'
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_f6e52/fast]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f6e52.dir\\build.make CMakeFiles/cmTC_f6e52.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-z5fxq9']
+        ignore line: [Building C object CMakeFiles/cmTC_f6e52.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj -c D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f6e52.dir\\']
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\Qt\\Tools\\CMake_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_f6e52.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\17934\\AppData\\Local\\Temp\\ccNGBhTb.s]
+        ignore line: [GNU C17 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d7c375444084b5dd0a875da0e5c67862]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f6e52.dir\\']
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj C:\\Users\\17934\\AppData\\Local\\Temp\\ccNGBhTb.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f6e52.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f6e52.exe]
+        ignore line: [D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f6e52.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f6e52.dir/objects.a]
+        ignore line: [D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_f6e52.dir/objects.a @CMakeFiles\\cmTC_f6e52.dir\\objects1.rsp]
+        ignore line: [D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_f6e52.dir/objects.a -Wl --no-whole-archive -o cmTC_f6e52.exe -Wl --out-implib libcmTC_f6e52.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6e52.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_f6e52.']
+        link line: [ D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17934\\AppData\\Local\\Temp\\cce8RU2l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_f6e52.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_f6e52.dir/objects.a --no-whole-archive --out-implib libcmTC_f6e52.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\17934\\AppData\\Local\\Temp\\cce8RU2l.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_f6e52.exe] ==> ignore
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_f6e52.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_f6e52.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [D:/Qt/Tools/mingw1310_64/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [D:/Qt/Tools/mingw1310_64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib/crt2.o;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0;D:/Qt/Tools/mingw1310_64/lib/gcc;D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib;D:/Qt/Tools/mingw1310_64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/find_blas.cmake:73 (CHECK_FUNCTION_EXISTS)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for cblas_ddot"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-822vdn"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-822vdn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "PKGCFG_HAVE_CBLAS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-822vdn'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_52a8a/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_52a8a.dir\\build.make CMakeFiles/cmTC_52a8a.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-822vdn'
+        Building C object CMakeFiles/cmTC_52a8a.dir/CheckFunctionExists.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=cblas_ddot -o CMakeFiles\\cmTC_52a8a.dir\\CheckFunctionExists.c.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-822vdn\\CheckFunctionExists.c
+        Linking C executable cmTC_52a8a.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_52a8a.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_52a8a.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_52a8a.dir/objects.a @CMakeFiles\\cmTC_52a8a.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=cblas_ddot -Wl,--whole-archive CMakeFiles\\cmTC_52a8a.dir/objects.a -Wl,--no-whole-archive -o cmTC_52a8a.exe -Wl,--out-implib,libcmTC_52a8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_52a8a.dir\\linkLibs.rsp
+        D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_52a8a.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `cblas_ddot'
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_52a8a.dir\\build.make:100: cmTC_52a8a.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-822vdn'
+        mingw32-make.exe: *** [Makefile:126: cmTC_52a8a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-qm75d0"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-qm75d0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-qm75d0'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_501ac/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_501ac.dir\\build.make CMakeFiles/cmTC_501ac.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-qm75d0'
+        Building C object CMakeFiles/cmTC_501ac.dir/CheckIncludeFile.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_501ac.dir\\CheckIncludeFile.c.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qm75d0\\CheckIncludeFile.c
+        Linking C executable cmTC_501ac.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_501ac.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_501ac.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_501ac.dir/objects.a @CMakeFiles\\cmTC_501ac.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_501ac.dir/objects.a -Wl,--no-whole-archive -o cmTC_501ac.exe -Wl,--out-implib,libcmTC_501ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_501ac.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-qm75d0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-eiy2wc"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-eiy2wc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-eiy2wc'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_5c129/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5c129.dir\\build.make CMakeFiles/cmTC_5c129.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-eiy2wc'
+        Building C object CMakeFiles/cmTC_5c129.dir/CheckIncludeFile.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_5c129.dir\\CheckIncludeFile.c.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eiy2wc\\CheckIncludeFile.c
+        Linking C executable cmTC_5c129.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5c129.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_5c129.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_5c129.dir/objects.a @CMakeFiles\\cmTC_5c129.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_5c129.dir/objects.a -Wl,--no-whole-archive -o cmTC_5c129.exe -Wl,--out-implib,libcmTC_5c129.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5c129.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-eiy2wc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-7cvsui"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-7cvsui"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-7cvsui'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_9c4ef/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9c4ef.dir\\build.make CMakeFiles/cmTC_9c4ef.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-7cvsui'
+        Building C object CMakeFiles/cmTC_9c4ef.dir/CheckIncludeFile.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_9c4ef.dir\\CheckIncludeFile.c.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cvsui\\CheckIncludeFile.c
+        Linking C executable cmTC_9c4ef.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9c4ef.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9c4ef.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_9c4ef.dir/objects.a @CMakeFiles\\cmTC_9c4ef.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_9c4ef.dir/objects.a -Wl,--no-whole-archive -o cmTC_9c4ef.exe -Wl,--out-implib,libcmTC_9c4ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9c4ef.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-7cvsui'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-thytn6"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-thytn6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SIZE_OF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-thytn6'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_77d7a/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_77d7a.dir\\build.make CMakeFiles/cmTC_77d7a.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-thytn6'
+        Building C object CMakeFiles/cmTC_77d7a.dir/SIZE_OF_VOID_PTR.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_77d7a.dir\\SIZE_OF_VOID_PTR.c.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thytn6\\SIZE_OF_VOID_PTR.c
+        Linking C executable cmTC_77d7a.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_77d7a.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_77d7a.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_77d7a.dir/objects.a @CMakeFiles\\cmTC_77d7a.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_77d7a.dir/objects.a -Wl,--no-whole-archive -o cmTC_77d7a.exe -Wl,--out-implib,libcmTC_77d7a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_77d7a.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-thytn6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/find_blas.cmake:433 (find_package)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:612 (include)"
+    directories:
+      source: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-mlttvm"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-mlttvm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-mlttvm'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_ab349/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ab349.dir\\build.make CMakeFiles/cmTC_ab349.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-mlttvm'
+        Building C object CMakeFiles/cmTC_ab349.dir/CheckFunctionExists.c.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles\\cmTC_ab349.dir\\CheckFunctionExists.c.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlttvm\\CheckFunctionExists.c
+        Linking C executable cmTC_ab349.exe
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ab349.dir\\link.txt --verbose=1
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ab349.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_ab349.dir/objects.a @CMakeFiles\\cmTC_ab349.dir\\objects1.rsp
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=sgemm_ -Wl,--whole-archive CMakeFiles\\cmTC_ab349.dir/objects.a -Wl,--no-whole-archive -o cmTC_ab349.exe -Wl,--out-implib,libcmTC_ab349.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ab349.dir\\linkLibs.rsp
+        D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_ab349.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `sgemm_'
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_ab349.dir\\build.make:100: cmTC_ab349.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/CMakeScratch/TryCompile-mlttvm'
+        mingw32-make.exe: *** [Makefile:126: cmTC_ab349/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:728 (try_compile)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_cuda"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build"
+    buildResult:
+      variable: "cuda_test_compile_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_cuda -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\cuda_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\cuda_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\cuda_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cuda_test.dir\\build.make CMakeFiles/cuda_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build'
+        [ 50%] Building NVCC (Device) object CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.obj
+        cd /d D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\cuda_test_build\\CMakeFiles\\cuda_test.dir && D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E make_directory D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//.
+        cd /d D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\cuda_test_build\\CMakeFiles\\cuda_test.dir && D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -D verbose:BOOL=1 -D build_configuration:STRING= -D generated_file:STRING=D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.obj -D generated_cubin_file:STRING=D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.obj.cubin.txt -P D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//cuda_test_generated_cuda_test.cu.obj.cmake
+        -- Removing D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.obj
+        D:/Qt/Tools/CMake_64/bin/cmake.exe -E rm -f D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.obj
+        -- Generating dependency file: D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//cuda_test_generated_cuda_test.cu.obj.NVCC-depend
+        "D:/NVIDIA/NVIDIA GPU Computing Toolkit/CUDA/v12.5/bin/nvcc.exe" -M -D__CUDACC__ D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_cuda/cuda_test.cu -o D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//cuda_test_generated_cuda_test.cu.obj.NVCC-depend -ccbin D:/Qt/Tools/mingw1310_64/bin/gcc.exe -m64 -DDLIB_USE_CUDA -arch=sm_50 -std=c++14 -D__STRICT_ANSI__ -D_MWAITXINTRIN_H_INCLUDED -D_FORCE_INLINES -DNVCC "-ID:/NVIDIA/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -ID:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_cuda/../../cuda
+        nvcc fatal   : Host compiler targets unsupported OS.
+        CMake Error at cuda_test_generated_cuda_test.cu.obj.cmake:216 (message):
+          Error generating
+          D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir//./cuda_test_generated_cuda_test.cu.obj
+        
+        
+        mingw32-make.exe[2]: *** [CMakeFiles\\cuda_test.dir\\build.make:76: CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:81: CMakeFiles/cuda_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/cuda_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...

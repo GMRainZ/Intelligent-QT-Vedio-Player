@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "qvboxlayout": "cpp",
+        "qlabel": "cpp",
+        "qwidget": "cpp",
+        "qapplication": "cpp",
+        "new": "cpp",
+        "qaudiooutput": "cpp",
+        "qtoolbar": "cpp",
+        "qpushbutton": "cpp"
+    }
+}

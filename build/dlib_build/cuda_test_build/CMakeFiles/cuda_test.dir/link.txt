@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw1310_64\bin\ar.exe qc libcuda_test.a CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.obj
+D:\Qt\Tools\mingw1310_64\bin\ranlib.exe libcuda_test.a

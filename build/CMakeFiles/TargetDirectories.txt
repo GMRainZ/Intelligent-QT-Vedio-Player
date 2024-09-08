@@ -1,0 +1,15 @@
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/QPlayerWithOpenCV.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/edit_cache.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/rebuild_cache.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/list_install_components.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/install.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/install/local.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/install/strip.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/QPlayerWithOpenCV_autogen.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/dlib.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/edit_cache.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/rebuild_cache.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/list_install_components.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/install.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/install/local.dir
+D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/CMakeFiles/install/strip.dir

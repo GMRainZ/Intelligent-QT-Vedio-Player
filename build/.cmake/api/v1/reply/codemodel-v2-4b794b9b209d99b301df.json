@@ -1,0 +1,112 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d6cbbe05c7a6834d6221.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "dlib_build",
+					"jsonFile" : "directory-dlib_build-Debug-19451c2eb959ac9255da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QPlayerWithOpenCV",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "dlib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QPlayerWithOpenCV::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QPlayerWithOpenCV-Debug-267f651c44dc4dd43c26.json",
+					"name" : "QPlayerWithOpenCV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QPlayerWithOpenCV_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QPlayerWithOpenCV_autogen-Debug-f7f35cd66b3e27bf990f.json",
+					"name" : "QPlayerWithOpenCV_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dlib::@6b70ea1b49788bfdb362",
+					"jsonFile" : "target-dlib-Debug-e29bc8285d0e729a13f4.json",
+					"name" : "dlib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Qt/qtProject/QPlayerWithOpenCV/build",
+		"source" : "D:/Qt/qtProject/QPlayerWithOpenCV"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
