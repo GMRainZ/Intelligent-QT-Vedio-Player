@@ -1,21 +1,45 @@
 [
 {
   "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\QPlayerWithOpenCV_autogen\\mocs_compilation.cpp.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\QPlayerWithOpenCV_autogen\\mocs_compilation.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\QPlayerWithOpenCV_autogen\\mocs_compilation.cpp.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\QPlayerWithOpenCV_autogen\\mocs_compilation.cpp",
   "file": "D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/QPlayerWithOpenCV.dir/QPlayerWithOpenCV_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\main.cpp.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\main.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\main.cpp.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\main.cpp",
   "file": "D:/Qt/qtProject/QPlayerWithOpenCV/main.cpp",
   "output": "CMakeFiles/QPlayerWithOpenCV.dir/main.cpp.obj"
 },
 {
   "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\player.cpp.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\player.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\player.cpp.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\player.cpp",
   "file": "D:/Qt/qtProject/QPlayerWithOpenCV/player.cpp",
   "output": "CMakeFiles/QPlayerWithOpenCV.dir/player.cpp.obj"
+},
+{
+  "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\setup.cc.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\setup.cc",
+  "file": "D:/Qt/qtProject/QPlayerWithOpenCV/setup.cc",
+  "output": "CMakeFiles/QPlayerWithOpenCV.dir/setup.cc.obj"
+},
+{
+  "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\signalConnectSlot.cc.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\signalConnectSlot.cc",
+  "file": "D:/Qt/qtProject/QPlayerWithOpenCV/signalConnectSlot.cc",
+  "output": "CMakeFiles/QPlayerWithOpenCV.dir/signalConnectSlot.cc.obj"
+},
+{
+  "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\slots.cc.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\slots.cc",
+  "file": "D:/Qt/qtProject/QPlayerWithOpenCV/slots.cc",
+  "output": "CMakeFiles/QPlayerWithOpenCV.dir/slots.cc.obj"
+},
+{
+  "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QPlayerWithOpenCV.dir/includes_CXX.rsp -g -std=gnu++17 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type -o CMakeFiles\\QPlayerWithOpenCV.dir\\adjustSize.cc.obj -c D:\\Qt\\qtProject\\QPlayerWithOpenCV\\adjustSize.cc",
+  "file": "D:/Qt/qtProject/QPlayerWithOpenCV/adjustSize.cc",
+  "output": "CMakeFiles/QPlayerWithOpenCV.dir/adjustSize.cc.obj"
 },
 {
   "directory": "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build",

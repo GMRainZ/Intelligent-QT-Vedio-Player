@@ -1,5 +1,5 @@
-CMakeFiles/QPlayerWithOpenCV.dir/main.cpp.obj: \
- D:\Qt\qtProject\QPlayerWithOpenCV\main.cpp \
+CMakeFiles/QPlayerWithOpenCV.dir/slots.cc.obj: \
+ D:\Qt\qtProject\QPlayerWithOpenCV\slots.cc \
  D:\Qt\qtProject\QPlayerWithOpenCV\player.h \
  D:/rain_programing/vscodeProject/buildOpenCV/buildOpenCV/install/include/opencv2/opencv.hpp \
  D:/rain_programing/vscodeProject/buildOpenCV/buildOpenCV/install/include/opencv2/opencv_modules.hpp \

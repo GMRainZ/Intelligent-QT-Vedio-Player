@@ -336,6 +336,15 @@
 		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets.cmake",
 		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets-relwithdebinfo.cmake",
 		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginAdditionalTargetInfo.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake",
+		"D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake",
+		"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessTargets.cmake",
 		"D:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/Qt/qtProject/QPlayerWithOpenCV",
@@ -358,6 +367,7 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_MULTIMEDIAWIDGETS_LIB",
 		"QT_MULTIMEDIA_LIB",
 		"QT_NEEDS_QMAIN",
 		"QT_NETWORK_LIB",
@@ -389,6 +399,7 @@
 		"D:/Qt/6.8.0/mingw_64/include/QtGui",
 		"D:/Qt/6.8.0/mingw_64/include/QtMultimedia",
 		"D:/Qt/6.8.0/mingw_64/include/QtNetwork",
+		"D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets",
 		"D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -429,8 +440,12 @@
 	"SETTINGS_FILE" : "D:/Qt/qtProject/QPlayerWithOpenCV/build/CMakeFiles/QPlayerWithOpenCV_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/Qt/qtProject/QPlayerWithOpenCV/adjustSize.cc", "MU", null ],
 		[ "D:/Qt/qtProject/QPlayerWithOpenCV/main.cpp", "MU", null ],
-		[ "D:/Qt/qtProject/QPlayerWithOpenCV/player.cpp", "MU", null ]
+		[ "D:/Qt/qtProject/QPlayerWithOpenCV/player.cpp", "MU", null ],
+		[ "D:/Qt/qtProject/QPlayerWithOpenCV/setup.cc", "MU", null ],
+		[ "D:/Qt/qtProject/QPlayerWithOpenCV/signalConnectSlot.cc", "MU", null ],
+		[ "D:/Qt/qtProject/QPlayerWithOpenCV/slots.cc", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

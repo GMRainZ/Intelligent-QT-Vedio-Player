@@ -1,5 +1,10 @@
 D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/EWIEGA46WW/moc_player.cpp: D:/Qt/qtProject/QPlayerWithOpenCV/player.h \
   D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/moc_predefs.h \
+  D:/Qt/6.8.0/mingw_64/include/QtCore/QList \
+  D:/Qt/6.8.0/mingw_64/include/QtCore/QObject \
+  D:/Qt/6.8.0/mingw_64/include/QtCore/QRect \
+  D:/Qt/6.8.0/mingw_64/include/QtCore/QSize \
+  D:/Qt/6.8.0/mingw_64/include/QtCore/QSizeF \
   D:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
   D:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -138,11 +143,15 @@ D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/EWIEGA46WW/moc
   D:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/QResizeEvent \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qbitmap.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qcolor.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qcursor.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qevent.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qfont.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qfontinfo.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qfontmetrics.h \
@@ -151,6 +160,7 @@ D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/EWIEGA46WW/moc
   D:/Qt/6.8.0/mingw_64/include/QtGui/qicon.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qiconconstants_impl.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qimage.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qinputdevice.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qinputmethod.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
@@ -158,24 +168,35 @@ D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/EWIEGA46WW/moc
   D:/Qt/6.8.0/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qrgba64.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qscreen.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qscreen_platform.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qtextdocument.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qtransform.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qvector2d.h \
+  D:/Qt/6.8.0/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.8.0/mingw_64/include/QtMultimedia/QAudioOutput \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/QMediaPlayer \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qaudio.h \
+  D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qaudiooutput.h \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qmediaplayer.h \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
   D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+  D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/QVideoWidget \
+  D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
+  D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
+  D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/qvideowidget.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QApplication \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QFileDialog \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
@@ -183,9 +204,11 @@ D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/EWIEGA46WW/moc
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QMenuBar \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QMessageBox \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QPushButton \
+  D:/Qt/6.8.0/mingw_64/include/QtWidgets/QSlider \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QToolBar \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qapplication.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qdialog.h \
@@ -202,6 +225,7 @@ D:/Qt/qtProject/QPlayerWithOpenCV/build/QPlayerWithOpenCV_autogen/EWIEGA46WW/moc
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qmessagebox.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/6.8.0/mingw_64/include/QtWidgets/qslider.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qtoolbar.h \
   D:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \

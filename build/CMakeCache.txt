@@ -628,6 +628,9 @@ Qt6GuiTools_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6GuiTools
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui
 
+//The directory containing a CMake configuration file for Qt6MultimediaWidgets.
+Qt6MultimediaWidgets_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets
+
 //The directory containing a CMake configuration file for Qt6Multimedia.
 Qt6Multimedia_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Multimedia
 
@@ -645,6 +648,9 @@ Qt6ZlibPrivate_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6ZlibPrivate
 
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6
+
+//The directory containing a CMake configuration file for Qt6multimediawidgets.
+Qt6multimediawidgets_DIR:PATH=D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets
 
 //Compile your program with AVX instructions
 USE_AVX_INSTRUCTIONS:BOOL=OFF

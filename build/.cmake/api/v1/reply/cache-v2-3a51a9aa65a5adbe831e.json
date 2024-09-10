@@ -8826,6 +8826,18 @@
 			"value" : "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui"
 		},
 		{
+			"name" : "Qt6MultimediaWidgets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6MultimediaWidgets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets"
+		},
+		{
 			"name" : "Qt6Multimedia_DIR",
 			"properties" : 
 			[
@@ -8896,6 +8908,18 @@
 			],
 			"type" : "PATH",
 			"value" : "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6"
+		},
+		{
+			"name" : "Qt6multimediawidgets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6multimediawidgets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6MultimediaWidgets"
 		},
 		{
 			"name" : "SIZE_OF_VOID_PTR",

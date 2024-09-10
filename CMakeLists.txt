@@ -44,6 +44,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS
     Gui 
     Multimedia 
     Network
+    MultimediaWidgets
 )
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS    
     Core 
@@ -51,13 +52,19 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS
     Gui 
     Multimedia 
     Network
+    MultimediaWidgets
 )
 
+# file(GLOB_RECURSE PROJECT_SOURCES "src/*.c*" "src/*.h" "src/*.ui")
 set(PROJECT_SOURCES
         main.cpp
         player.cpp
+        setup.cc
+        signalConnectSlot.cc
+        slots.cc
         player.h
         player.ui
+        adjustSize.cc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -97,6 +104,7 @@ target_link_libraries(QPlayerWithOpenCV PRIVATE
     Qt${QT_VERSION_MAJOR}::Network
     Qt${QT_VERSION_MAJOR}::Core
     Qt${QT_VERSION_MAJOR}::Gui
+    Qt${QT_VERSION_MAJOR}::MultimediaWidgets
     ${OpenCV_LIBS} 
     "dlib::dlib"
 )

@@ -1599,3 +1599,883 @@ events:
         
       exitCode: 2
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/cmake_utils/test_for_neon"
+      binary: "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        
+        Run Build Command(s): D:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -SD:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon -BD:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build --check-build-system CMakeFiles\\Makefile.cmake 0
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_progress_start D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\\\CMakeFiles\\progress.marks
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make.exe[1]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/depend
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake
+        Dependee "D:\\Qt\\qtProject\\QPlayerWithOpenCV\\build\\dlib_build\\neon_test_build\\CMakeFiles\\neon_test.dir\\DependInfo.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Dependee "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/depend.internal".
+        Scanning dependencies of target neon_test
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\neon_test.dir\\build.make CMakeFiles/neon_test.dir/build
+        mingw32-make.exe[2]: Entering directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        [ 50%] Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.obj
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe    -o CMakeFiles\\neon_test.dir\\neon_test.cpp.obj -c D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+        D:\\rain_programing\\OpenSourceProject\\dlib-19.24.3\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp:3:2: error: #error "No NEON"
+            3 | #error "No NEON"
+              |  ^~~~~
+        mingw32-make.exe[2]: *** [CMakeFiles\\neon_test.dir\\build.make:74: CMakeFiles/neon_test.dir/neon_test.cpp.obj] Error 1
+        mingw32-make.exe[2]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe[1]: *** [CMakeFiles\\Makefile2:82: CMakeFiles/neon_test.dir/all] Error 2
+        mingw32-make.exe[1]: Leaving directory 'D:/Qt/qtProject/QPlayerWithOpenCV/build/dlib_build/neon_test_build'
+        mingw32-make.exe: *** [Makefile:90: all] Error 2
+        
+      exitCode: 2
+...

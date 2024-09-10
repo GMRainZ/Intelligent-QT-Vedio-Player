@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d6cbbe05c7a6834d6221.json",
+					"jsonFile" : "directory-.-Debug-7d520fcac4a98351c864.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -77,7 +77,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QPlayerWithOpenCV::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QPlayerWithOpenCV-Debug-267f651c44dc4dd43c26.json",
+					"jsonFile" : "target-QPlayerWithOpenCV-Debug-b956c50f309275789345.json",
 					"name" : "QPlayerWithOpenCV",
 					"projectIndex" : 0
 				},

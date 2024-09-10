@@ -588,6 +588,35 @@ CMakeFiles/QPlayerWithOpenCV.dir/player.cpp.obj: \
  D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
  D:/Qt/6.8.0/mingw_64/include/QtCore/qmetaobject.h \
  D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qaudio.h \
+ D:/Qt/6.8.0/mingw_64/include/QtMultimedia/QAudioOutput \
+ D:/Qt/6.8.0/mingw_64/include/QtMultimedia/qaudiooutput.h \
+ D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/QVideoWidget \
+ D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/qvideowidget.h \
+ D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
+ D:/Qt/6.8.0/mingw_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
+ D:/Qt/6.8.0/mingw_64/include/QtWidgets/QSlider \
+ D:/Qt/6.8.0/mingw_64/include/QtWidgets/qslider.h \
+ D:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractslider.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/QResizeEvent \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qevent.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qeventpoint.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qvector2d.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qvectornd.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qinputdevice.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qscreen.h \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/QList \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/QRect \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/qrect.h \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/QSize \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/qsize.h \
+ D:/Qt/6.8.0/mingw_64/include/QtCore/QSizeF \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/QTransform \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qtransform.h \
+ D:/Qt/6.8.0/mingw_64/include/QtGui/qscreen_platform.h \
  D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/image_processing/frontal_face_detector.h \
  D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/image_processing/frontal_face_detector_abstract.h \
  D:/rain_programing/OpenSourceProject/dlib-19.24.3/dlib/image_processing/object_detector.h \

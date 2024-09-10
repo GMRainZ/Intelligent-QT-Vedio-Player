@@ -18,9 +18,10 @@
 #include <QMenuBar>
 #include <QToolBar>
 #include <QMediaPlayer>
-
-
-
+#include <QAudioOutput>
+#include <QVideoWidget>
+#include <QSlider>
+#include <QResizeEvent>
 
 //dlib
 #include <dlib/image_processing/frontal_face_detector.h>
@@ -68,7 +69,11 @@ private:
     QLabel *label;
     cv::VideoCapture capture;
     QTimer* timer;
+    
 
+    QSlider* positionSlider;
+    QVideoWidget* videoWidget;
+    QAudioOutput* audioOutput;
 
     //按钮
     QPushButton* openFileBtn;//打开文件
@@ -92,15 +97,20 @@ private:
     void setupToolBar();
     void setupButton();
     void setupLabel();
-
+    void setupSlider();
 
     void signalConnectSlot();
+
+
+
+    void processVedio();//处理视频
+    void resizeEvent(QResizeEvent *event) override;
 
 private:
     QString fileName;
     QMediaPlayer* mediaPlayer;
     // QVideoWidget* videoWidget;
-    QAudioOutput* audioOutput;
+    // QAudioOutput* audioOutput;
 private slots:
 
     //播放按钮的槽函数
@@ -125,7 +135,7 @@ private slots:
     
     void pauseVedio();
     void processFrame();
-    void processVedio();
+    
     void openFile();
     void closePlayer(){
         capture.release();
@@ -135,5 +145,13 @@ private slots:
 
 
     void saveFile();
+
+
+
+    void durationChanged(qint64 duration);
+    void positionChanged(qint64 position);
+    void setPosition(qint64 position);
+
+
 };
 #endif // PLAYER_H
